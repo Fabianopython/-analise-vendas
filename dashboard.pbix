@@ -1,1 +1,21 @@
+import pandas as pd
+import plotly.express as px
+from dash import Dash, dcc, html
+
+# Carregar o CSV
+df = pd.read_csv(r"C:\Users\fabia\OneDrive\Documentos\vendas.csv")
+
+# Criar um gráfico (exemplo: vendas por produto)
+fig = px.bar(df, x="Produto", y="Valor", title="Vendas por Produto")
+
+# Criar o app Dash
+app = Dash(__name__)
+
+app.layout = html.Div([
+    html.H1("Dashboard de Vendas"),
+    dcc.Graph(figure=fig)
+])
+
+if __name__ == "__main__":
+    app.run(debug=True)
 
