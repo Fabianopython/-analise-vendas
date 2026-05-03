@@ -1,1 +1,11 @@
+Data,Produto,Categoria,Regiao,Valor,Quantidade
+2024-01-10,Notebook,Eletrônicos,Sul,3500,1
+2024-01-12,Mouse,Eletrônicos,Sudeste,80,2
+2024-02-05,Teclado,Eletrônicos,Sul,150,1
+2024-02-20,Cadeira,Móveis,Nordeste,900,1
+2024-03-15,Mesa,Móveis,Sudeste,1200,1
+2024-03-18,Monitor,Eletrônicos,Sul,1100,1
+2024-04-02,Notebook,Eletrônicos,Norte,3700,1
+2024-04-10,Cadeira,Móveis,Sul,850,1
+2024-04-12,Mouse,Eletrônicos,Sudeste,90,3
 
